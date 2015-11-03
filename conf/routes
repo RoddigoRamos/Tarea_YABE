@@ -9,6 +9,9 @@ GET     /posts/{tag}                            Application.listTagged
 POST    /posts/{postId}/comments                Application.postComment
 GET     /captcha                                Application.captcha
 
+# Importar routes del módulo CRUD
+*       /admin                                  module:crud
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
