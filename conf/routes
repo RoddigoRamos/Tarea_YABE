@@ -9,7 +9,11 @@ GET     /posts/{tag}                            Application.listTagged
 POST    /posts/{postId}/comments                Application.postComment
 GET     /captcha                                Application.captcha
 
-# Importar routes del módulo CRUD
+# Importar rutas de Secure
+*       /                                       module:secure
+
+# Administracion
+GET     /admin/?                                Admin.index
 *       /admin                                  module:crud
 
 # Ignore favicon requests
