@@ -8,6 +8,10 @@ GET     /posts/{<[0-9]+>id}                     Application.show
 GET     /posts/{tag}                            Application.listTagged
 POST    /posts/{postId}/comments                Application.postComment
 GET     /captcha                                Application.captcha
+GET     /admin/myPosts/{id}                     Admin.form
+GET     /admin/new                              Admin.form
+POST    /admin/myPosts/{id}                     Admin.save
+POST    /admin/new                              Admin.save
 
 # Importar rutas de Secure
 *       /                                       module:secure

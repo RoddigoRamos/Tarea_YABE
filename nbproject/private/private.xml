@@ -2,15 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/home/rodrigo/Documents/Netbeans%20Projects/yabe/conf/dependencies.yml</file>
-            <file>file:/home/rodrigo/Documents/Netbeans%20Projects/yabe/app/controllers/Tags.java</file>
-            <file>file:/home/rodrigo/Documents/Netbeans%20Projects/yabe/app/controllers/Users.java</file>
-            <file>file:/home/rodrigo/Documents/Netbeans%20Projects/yabe/conf/application.conf</file>
-            <file>file:/home/rodrigo/Documents/Netbeans%20Projects/yabe/app/controllers/Posts.java</file>
-            <file>file:/home/rodrigo/Documents/Netbeans%20Projects/yabe/app/views/Posts/show.html</file>
-            <file>file:/home/rodrigo/Documents/Netbeans%20Projects/yabe/conf/routes</file>
-            <file>file:/home/rodrigo/Documents/Netbeans%20Projects/yabe/app/controllers/Comments.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
