@@ -49,6 +49,9 @@ public class Application extends Controller {
         flash.success("Thanks for posting %s", author);
         Cache.delete(randomID);
         show(postId);
+        if (!Play.id.equals("test")) {
+            validation.equals(code, Cache.get(randomID)).message("Invalid code. Please type it again");
+        }
     }
 
     public static void captcha(String id) {
